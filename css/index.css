@@ -12,47 +12,272 @@ img.logo {
     margin: 30px 50px;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+ul.header01 {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 
-li {
+li.header02{
     justify-content: center;
     text-align: center;
-    margin-left: 30px;
-    font-weight: bold;padding-right: 20px;
+    font-weight: bold;
+    padding-right: 15px;
     right: 0;
-    
 }
 
-a {
+a.header03{
     text-decoration: none;
     color: #000;
+    text-align: center;
 }
 
 .first_view {
-  width: 100%;
-  height: 80vh;
-  background: url("../img/mv.png")no-repeat center;
+    width: 100%;
+    height: 70vh;
+    display:flex;
+    align-items: center;
+    background: url("../img/mv.png")no-repeat center;
+    background-size: cover;
 }
 
 .titles {
-  color: white;
-  margin: 0 auto;
+    color: white;
+    margin: 0 auto;
 }
 
 .title {
-  font-size: 40px;
-  font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 p.sub-title {
-  font-size: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
+.thought {
+    background-color: #000;
+    color: white;
+    padding: 70px;
+    height: 285px;
+}
 
+.thought-ttl {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
 
+.service {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.business {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.business01 {
+    text-align: center;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+img.service01 {
+    width: 100%;
+}
+
+.service_button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a.btn {
+    background-color: #d00;
+    color: #fff;
+    padding: 10px;
+}
+
+.news {
+    background-color: #000;
+    color: white;
+    padding: 70px;
+    height: 410px;
+    text-align: center;
+    margin: auto;
+}
+
+.news01 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news02 {
+    align-items: center;
+    font-size: 20px;
+}
+
+a.btn2 {
+    background-color: #d00;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+
+tr {
+    font-size: 18px;
+    background-color: white;
+    color: #000;
+}
+
+td {
+    padding: 15px 30px;
+}
+
+td.event {
+    text-align: left;
+}
+
+.blog {
+    text-align: center;
+    margin: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog01 {
+    width: 30%;
+}
+
+img.Blog {
+    width: 100%;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+a.btn3 {
+    background-color: #d00;
+    color: #fff;
+    padding: 10px 35px;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    width: 100%;
+}
+
+.company {
+    background-color: #e00;
+    width: 50%;
+    height: 25vh;
+    text-align: center;
+    line-height: 25vh;
+}
+
+.recruit {
+    background-color: #000;
+    width: 50%;
+    height: 25vh;
+    text-align: center;
+    line-height: 25vh;
+}
+
+a.informations {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #DDDDDD;
+    margin-top: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact01 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact02 {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+a.btn04 {
+    color: white;
+    background-color: #e00;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+footer.footer01 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+    height: 60px;
+    line-height: 20px;
+}
+
+.footer02 {
+    color: #fff;
+    font-size: 12px;
+}
+
+ul.footer04 {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li.footer03 {
+    border-right: 1px solid #fff;
+    padding: 0px 10px;
+}
+
+li.footer03:last-child {
+    border-right: none;
+}
+
+a.footer04 {
+    color: #fff;
+    font-size: 12px;
+}
