@@ -230,7 +230,7 @@ a.btn04 {
     font-size: 14px;
 }
 
-@media screen and (max-width:786px){
+@media screen and (max-width:768px){
     .business{
         flex-direction: column;
     }

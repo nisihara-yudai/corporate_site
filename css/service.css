@@ -1,27 +1,5 @@
 @charset "utf-8";
 
-/* テクノロジーと思い */
-.first_view {
-    width: 100%;
-    height: 20vh;
-    padding-top: 90px;
-    display:flex;
-    align-items: center;
-    background: url("../img/mv.png")no-repeat center;
-    background-size: cover;
-}
-
-.titles {
-    color: white;
-    margin: 0 auto;
-}
-
-.title {
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-}
-
 /* サービスページ */
 .business {
     margin: 30px auto;
@@ -96,7 +74,7 @@ a.btn04 {
     font-size: 14px;
 }
 
-@media screen and (max-width:786px){
+@media screen and (max-width:768px){
     .business{
         flex-direction: column;
     }

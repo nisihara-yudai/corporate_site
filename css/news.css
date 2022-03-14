@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* ニュースページ */
+.news {
+    margin: 80px;
+}
+
+table { 
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 5px;
+} 
+
+tr.object {
+    border: 1px solid #000;
+}
+
+td.date {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+td.event {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/* お問い合わせ */
+.contact {
+    background-color: #DDDDDD;
+    margin-top: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact01 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact02 {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+a.btn04 {
+    color: white;
+    background-color: #e00;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px){
+    
+}
