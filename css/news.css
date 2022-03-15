@@ -2,30 +2,28 @@
 
 /* ニュースページ */
 .news {
-    margin: 80px;
+    margin: 50px;
 }
 
-table{ 
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 5px;
-} 
+ul.news{
+    width: 80%;
+    margin: 50px;
+}
 
-tr.object {
+li.object {
+    display: flex;
     border: 1px solid #000;
+    margin-bottom: 20px;
 }
 
-td.date {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 20%;
+.day {
+    padding: 20px;
 }
 
-td.event {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.event {
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* お問い合わせ */
@@ -55,5 +53,18 @@ a.btn04 {
 }
 
 @media screen and (max-width:768px){
-    
+    ul.news {
+    width: 90%;
+    margin: 50px 30px;
+    }
+
+    .day {
+    padding: 10px;
+    }
+
+    .event {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
 }
