@@ -21,6 +21,7 @@ li.company_detail:first-child {
     margin: 20px 30px;
     font-weight: bold;
     width: 15%;
+    text-align: center;
 }
 
 .detail {
