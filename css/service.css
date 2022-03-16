@@ -48,32 +48,6 @@ p.sub-explain {
     overflow-wrap: break-word;
 }
 
-/* お問い合わせ */
-.contact {
-    background-color: #DDDDDD;
-    margin-top: 35px;
-    text-align: center;
-    padding: 30px;
-}
-
-.contact01 {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.contact02 {
-    font-size: 14px;
-    margin-bottom: 40px;
-}
-
-a.btn04 {
-    color: white;
-    background-color: #e00;
-    padding: 10px 20px;
-    font-size: 14px;
-}
-
 @media screen and (max-width:768px){
     .business{
         flex-direction: column;
