@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* 採用情報 */
+.recruit {
+    margin: 60px 90px;
+}
+
+.ttl {
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    font-size: 25px;
+}
+
+.explain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table.detail {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+tr.chart {
+    border-bottom: 1px solid #000;
+}
+
+td.detail_title {
+    text-align: center;
+    border-right: 1px solid #000;
+    background-color: #CCCCCC;
+    width: 20%;
+    padding: 10px;
+}
+
+td.detail_explain {
+    padding: 10px;
+}
+
+@media screen and (max-width:768px){
+    .recruit {
+        margin: 60px 35px;
+    }
+
+    .recruit:last-child {
+        margin: 50px 35px;
+    }
+}

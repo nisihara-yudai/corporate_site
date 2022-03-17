@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* お問い合わせフォーム */
+form.forms {
+    text-align: center;
+    margin-top: 70px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+label {
+    margin-right: 20px;
+    display: inline-block;
+    position: relative;
+    padding-left: 1rem;
+    text-indent: -1rem;
+}
+
+.form{
+  border: 1px solid #ccc;
+  position: absolute;
+  left: 340px;
+}
+
