@@ -2,26 +2,26 @@
 
 /* お問い合わせフォーム */
 form.forms {
-    text-align: center;
-    margin-top: 70px;
-}
-
-ul li {
-  list-style: none;
-  margin-bottom: 20px;
+    margin: 70px auto;
+    width: 75%;
 }
 
 label {
-    margin-right: 20px;
-    display: inline-block;
-    position: relative;
-    padding-left: 1rem;
-    text-indent: -1rem;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .form{
   border: 1px solid #ccc;
-  position: absolute;
-  left: 340px;
+  width: 100%;
+}
+
+input.submit {
+    padding: 10px 50px;
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+    margin-left: 35%;
 }
 
