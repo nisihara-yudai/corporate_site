@@ -16,6 +16,14 @@ li.object {
     margin-bottom: 20px;
 }
 
+li.object:hover .day{
+    opacity: 0.7;
+}
+
+li.object:hover .event{
+    opacity: 0.7;
+}
+
 .day {
     padding: 20px;
 }

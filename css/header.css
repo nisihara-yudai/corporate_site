@@ -44,6 +44,10 @@ a.header03{
     text-align: center;
 }
 
+a.header03:hover{
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 768px){
   .nav{
         display: flex;
