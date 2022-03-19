@@ -29,12 +29,15 @@ span {
   height: 100px;
 }
 
+.submit {
+    text-align: center;
+}
+
 input.submit {
   padding: 10px 50px;
   margin-top: 50px;
   background: #000;
   color: #fff;
-  margin-left: 33%;
 }
 
 @media screen and (max-width:768px){
